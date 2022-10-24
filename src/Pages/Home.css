@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+.bgu{
+    background-image: url("../Images/bgHome.png");
+    background-position:center;
+    background-size:cover;
+    height:450px;
+}
+
+.reg{
+    font-family: 'Lora', serif;
+    line-height: 80px;
+    font-size: 70px;
+}
+.wedo{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.exp{
+    font-size: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .bgu{
+        background-image: url("../Images/bgHome.png");
+        background-position:center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .reg{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .wedo{
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .reg{
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
