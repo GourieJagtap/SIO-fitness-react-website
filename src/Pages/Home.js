@@ -1,5 +1,5 @@
 import "./Home.css"
-const Home=()=>{
+const Home=(props)=>{
     return(
         <div className="container bgu pt-3">
             <div row>
@@ -21,7 +21,32 @@ const Home=()=>{
                 </div>
                 
             </div>
-            
+            <div className="row pt-5">
+                <div className="shadow col-md-12 bg-light ">
+                    <div className="row">
+                        <div className="col-3">
+                            <div className="row">
+                                <div className="col-2">
+                                    {props.logo}
+                                </div>
+                                <div className="col-8">
+                                    <div className="row">
+                                        <div className="col-12">
+                                            {props.title}
+                                        </div>
+                                        <div className="col-12">
+                                            {props.descpritions}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-1">
+                        <a class="btn btn-primary" href="#" role="button">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import "./Header.css";
 import {Link} from 'react-router-dom'
 
-const Header =()=>{
+const Header =(props)=>{
     return(
         <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">

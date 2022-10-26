@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+
+.bg{
+    background-image:url(../Images/Bg-Mem.png);
+    background-position:center;
+    background-size:cover;
+    height:450px;
+}
+
+.reason{
+    font-family: 'Lora', serif;
+    line-height: 80px;
+    font-size: 60px;
+}
+.list{
+    font-family: serif;
+    font-size:20px;
+    line-height:40px;
+}
+.plan{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+.memb-body{
+    font-family: serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bg{
+        background-image:url(../Images/Bg-Mem.png);
+        background-position:center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .reason{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .list{
+        font-family: 'poppins';
+        font-size:15px;
+        line-height:30px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .reason{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .list{
+        font-family: 'poppins';
+        font-size:15px;
+        line-height:30px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .reason{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .list{
+        font-family: serif;
+        font-size:15px;
+        line-height:29px;
+    }
+}
+ul{
+    list-style: none;
+    line-height: 40px;
+}
