@@ -18,13 +18,19 @@
     font-family: serif;
     font-size:20px;
     line-height:40px;
+    list-style-type: disc;
 }
 .plan{
     font-family: 'Lora', serif;
     font-size: 30px;
 }
+.plan1{
+    font-family: 'Lora', serif;
+    font-size: 40px;
+}
 .memb-body{
-    font-family: serif;
+    font-family: 'poppins';
+    color: rgb(88, 88, 88);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -52,10 +58,10 @@
     .list{
         font-family: 'poppins';
         font-size:15px;
-        line-height:30px;
+        line-height:23px;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 650px){
     .reason{
         font-size: 20px;
         line-height: 35px;
@@ -63,10 +69,67 @@
     .list{
         font-family: serif;
         font-size:15px;
-        line-height:29px;
+        line-height:20px;
+    }
+    .bg{
+        background-image:url(../Images/Bg-Mem.png);
+        background-position:center;
+        background-size:cover;
+        height:300px;
     }
 }
 ul{
     list-style: none;
     line-height: 40px;
+}
+.rounded-p{
+    width: 75px;
+    height: 65px;
+    
+}
+.img1 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .img2 {
+    position: relative;
+    z-index: 2;
+    left: -38px;
+  }
+  .img3 {
+    position: relative;
+    z-index: 2;
+    left: -76px;
+  }
+  .img4 {
+    position: relative;
+    z-index: 2;
+    left: -114px;
+  }
+  .img5 {
+    position: relative;
+    z-index: 2;
+    left: -151px;
+  }
+  .img6 {
+    position: relative;
+    z-index: 2;
+    left: -188px;
+  }
+.comma img{
+    width: 30px;
+    height: 30px;
+}
+.comment{
+    width:80px;
+    height:60px;
+}
+.bg-p{
+    background-color: rgb(98, 63, 255);
+}
+
+.email{
+    width:380px;
+    border-radius:5px;
 }

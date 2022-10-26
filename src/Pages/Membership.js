@@ -1,6 +1,14 @@
 import React from 'react';
 import Check from "../Images/check.png";
-import MemCard from "../Pages/MemCard"
+import MemCard from "../Pages/MemCard";
+import Face1 from "../Images/face1.jpg";
+import Face2 from "../Images/face2.jpg";
+import Face3 from "../Images/face3.jpg";
+import Face4 from "../Images/face4.jpg";
+import Face5 from "../Images/face5.jpg";
+import Face6 from "../Images/face6.jpg";
+import quotation from "../Images/quotation-mark.png";
+import star from "../Images/star.png";
 import "../Pages/Membership.css";
 const Memberships=()=>{
     let MemC=[
@@ -62,12 +70,12 @@ const Memberships=()=>{
         <div class="container bg">
             <div className="row">
                 <div className="col-6"></div>
-                <div className="col-6 reason ps-4">
+                <div className="col-6 reason ps-md-3 pt-md-5">
                     The Reason Why You Should Join Us.
                 </div>
                 <div className="row">
                         <div className="col-6"></div>
-                <div className="m-0 col-6 ps-3 text-primary wedo">
+                <div className="m-0 col-6 ps-md-1 text-primary wedo">
                     <ul className="list">
                         <li>We provide certified and professonal and certified trainers</li>
                         <li>You can consult with our trainers for free.</li>
@@ -105,6 +113,80 @@ const Memberships=()=>{
                                 amountt={MemC[2].amount}
                                 listt={MemC[2].list}
                             />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className="row">
+                    <div className="col-md-6 pt-5 pb-3">
+                        <div className="ps-5 col plan1 pe-md-3">
+                                What Our Members Are Saying About  
+                        </div>
+                        <div className="row">
+                            <div className="col memb-body ps-5 pt-5 pe-md-3">
+                                Here are various testimonials from some of our members spread all over the world.
+                            </div>
+                        </div>
+                        <div className="row p-4">
+                            <img src={Face1} className="img1 rounded-p rounded-circle"></img>
+                            <img src={Face2} className="img2 rounded-p rounded-circle"></img>
+                            <img src={Face3} className="img3 rounded-p rounded-circle"></img>
+                            <img src={Face4} className="img4 rounded-p rounded-circle"></img>
+                            <img src={Face5} className="img5 rounded-p rounded-circle"></img>
+                            <img src={Face6} className="img6 rounded-p rounded-circle"></img>
+                        </div>
+                    </div>
+                    <div className="col-md-6 p-5 ">
+                        <div className="row p-5 shadow-lg">
+                            <div className="col-3 comma ">
+                                <img src={quotation}></img>
+                            </div>
+                            <div className="col-3"></div>
+                            <div className="col-6 end">
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                                <img src={star} alt="" />
+                            </div>
+                            <div className="row">
+                            <div className="col memb-body ps-3 pt-3
+                            pb-3">
+                                This Gym is the gym if you want to build muscles or lose weight,they have every equipment available
+                            </div>
+                            <hr />
+                            <div className="row pt-2">
+                                <div className="col-3 p-2">
+                                <img src={Face1} className=" rounded-circle comment"></img>
+                                </div>
+                                <div className="col-6 p-2">
+                                        <h4>Adam Griefrn</h4>
+                                <p>28 years ago.</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row p-5">
+                    <div className="col-12 bg-p">
+                        <div className="row pt-5 pb-4">
+                            <div className="ps-5 col plan1 pe-md-3 text-light text-center">
+                                        Subscribe To Our News Letters
+                            </div>
+                        </div>
+                        <div className="row">
+                        <div className="col memb-body ps-3 pt-2 pb-3 text-light text-center">
+                                Get the latest information from us.
+                            </div>
+                        </div>
+                        <div className="row pt-4 pb-5 text-center">
+                            <span>
+                            <input type="email " placeholder="Enter your email id" className="p-2 email"/>
+                            <button type="button" className="p-2 rounded-2">Subscribe</button>
+                            </span>
+                            
                         </div>
                     </div>
                 </div>
