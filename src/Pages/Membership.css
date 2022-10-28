@@ -6,7 +6,8 @@
     background-image:url(../Images/Bg-Mem.png);
     background-position:center;
     background-size:cover;
-    height:400px;
+    background-repeat: no-repeat;
+    height:500px;
 }
 
 .reason{
