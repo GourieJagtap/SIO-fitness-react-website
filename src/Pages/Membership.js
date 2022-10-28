@@ -87,7 +87,7 @@ const Memberships=()=>{
                 </div>
             </div>
             <div className="row">
-                <div className=" col-12 pt-lg-5 ">
+                <div className=" col-12 pt-lg-4 ">
                     <div className="pb-md-5 pt-md-5 ">
                         <div className="shadow row p-5">
                             <div className="text-center col plan">
@@ -117,8 +117,7 @@ const Memberships=()=>{
                     </div>
                 </div>
             </div>
-            <div>
-                <div className="row">
+                <div className="row m-0">
                     <div className="col-md-6 pt-5 pb-3">
                         <div className="ps-5 col plan1 pe-md-3">
                                 What Our Members Are Saying About  
@@ -137,31 +136,31 @@ const Memberships=()=>{
                             <img src={Face6} className="img6 rounded-p rounded-circle"></img>
                         </div>
                     </div>
-                    <div className="col-md-6 p-5 ">
-                        <div className="row p-5 shadow-lg">
+                    <div className="col-md-6 p-md-5 ">
+                        <div className="row p-3 shadow-lg">
                             <div className="col-3 comma ">
                                 <img src={quotation}></img>
                             </div>
-                            <div className="col-3"></div>
-                            <div className="col-6 end">
-                                <img src={star} alt="" />
-                                <img src={star} alt="" />
-                                <img src={star} alt="" />
-                                <img src={star} alt="" />
-                                <img src={star} alt="" />
+                            <div className="col-2"></div>
+                            <div className="col-7 end">
+                                <img src={star} class="star" alt="" />
+                                <img src={star} class="star" alt="" />
+                                <img src={star} class="star" alt="" />
+                                <img src={star} class="star" alt="" />
+                                <img src={star} class="star" alt="" />
                             </div>
                             <div className="row">
-                            <div className="col memb-body ps-3 pt-3
+                            <div className="col memb-body ps-2 pt-5
                             pb-3">
                                 This Gym is the gym if you want to build muscles or lose weight,they have every equipment available
                             </div>
                             <hr />
                             <div className="row pt-2">
-                                <div className="col-3 p-2">
+                                <div className="col-2 p-1">
                                 <img src={Face1} className=" rounded-circle comment"></img>
                                 </div>
-                                <div className="col-6 p-2">
-                                        <h4>Adam Griefrn</h4>
+                                <div className="col-9 ps-4 adamv">
+                                <h4 className="adam">Adam Griefrn</h4>
                                 <p>28 years ago.</p>
                                 </div>
                             </div>
@@ -169,7 +168,7 @@ const Memberships=()=>{
                         </div>
                     </div>
                 </div>
-                <div className="row p-5">
+                <div className="row p-3">
                     <div className="col-12 bg-p">
                         <div className="row pt-5 pb-4">
                             <div className="ps-5 col plan1 pe-md-3 text-light text-center">
@@ -177,20 +176,19 @@ const Memberships=()=>{
                             </div>
                         </div>
                         <div className="row">
-                        <div className="col memb-body ps-3 pt-2 pb-3 text-light text-center">
+                        <div className="col memb-body ps-2 pt-2 pb-3 text-light text-center">
                                 Get the latest information from us.
                             </div>
                         </div>
                         <div className="row pt-4 pb-5 text-center">
                             <span>
                             <input type="email " placeholder="Enter your email id" className="p-2 email"/>
-                            <button type="button" className="p-2 rounded-2">Subscribe</button>
+                            <button type="button" className="p-2 rounded-2 btnc">Subscribe</button>
                             </span>
                             
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     )
 }

@@ -16,7 +16,6 @@ const MemCard=(props)=>{
                 </div>
                 <button type="button" className="btn btn-outline-primary  button">Find a Gym</button>
                 </div>
-                
             </div>
         // </div>
     )

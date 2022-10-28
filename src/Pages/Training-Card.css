@@ -1,0 +1,13 @@
+.title{
+    font-family: "poppins";
+    font-weight: bold;
+    word-spacing: 7px;
+    font-size: 18px;
+}
+.desc{
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+}
+.card-p{
+    padding:40px;
+}

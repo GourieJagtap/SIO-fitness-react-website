@@ -12,13 +12,42 @@
     font-family: 'Lora', serif;
     line-height: 80px;
     font-size: 70px;
+    padding-left: 80px;
 }
 .wedo{
     font-family: sans-serif;
     font-size: 30px;
+    padding-left: 80px;
+    font-weight: bold;
 }
 .exp{
     font-size: 20px;
+    padding-left: 80px;
+}
+.training{
+    font-family: 'Lora';
+    font-size:32px;
+}
+.train-c{
+    font-family:sans-serif;
+    font-size: 15px;
+}
+.prg{
+    padding:50px;
+}
+.btm{
+    margin:30px;
+    padding:50px;
+}
+.but{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 1100px){
+    .reg{
+    font-size: 60px;
+    }
 }
 @media only screen and (max-width: 900px) {
     .bgu{
@@ -26,19 +55,77 @@
         background-position:center;
         background-size: contain;
         background-repeat: no-repeat;
+        height:400px;
     }
     .reg{
-        font-size: 50px;
+        font-size: 40px;
         line-height: 60px;
+        padding-left: .8em;
     }
     .wedo{
         font-family: sans-serif;
         font-size: 15px;
+        padding-left: 3em;
+        font-weight: bold;
+    }
+    .exp{
+            padding-left: 3em;
+            font-size:15px;
+    }
+    .training{
+        font-family: 'Lora';
+        font-size:1.5em;
+    }
+    .train-c{
+        font-family:sans-serif;
+        font-size: .8em;
+    }
+    .prg{
+        padding:.9em;
+    }
+    .btm{
+        margin:1em;
+        padding:1em;
     }
 }
 @media only screen and (max-width: 500px){
+    .bgu{
+        height:400px;
+    }
     .reg{
-        font-size: 35px;
+        font-size: 30px;
         line-height: 45px;
+        padding-left: .8em;
+    }
+    .bgu{
+        height:200px
+    }
+    .training{
+        font-family: 'Lora';
+        font-size:1.5em;
+    }
+    .train-c{
+        font-family:sans-serif;
+        font-size: .7em;
+    }
+    .prg{
+        padding:1em;
+    }
+    .btm{
+        margin:1em;
+        padding:1em;
+    }
+    .wedo{
+        padding-left: 3em;
+        font-size:.8em;
+        font-weight: bold;
+    }
+    .exp{
+        padding-left: 2em;
+        font-size:15px;
+    }
+    .but{
+        padding-left: 30px;
+        padding-top: 10px;
     }
 }

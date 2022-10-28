@@ -6,7 +6,7 @@
     background-image:url(../Images/Bg-Mem.png);
     background-position:center;
     background-size:cover;
-    height:450px;
+    height:400px;
 }
 
 .reason{
@@ -31,52 +31,6 @@
 .memb-body{
     font-family: 'poppins';
     color: rgb(88, 88, 88);
-}
-
-@media only screen and (max-width: 1200px) {
-    .bg{
-        background-image:url(../Images/Bg-Mem.png);
-        background-position:center;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    .reason{
-        font-size: 50px;
-        line-height: 60px;
-    }
-    .list{
-        font-family: 'poppins';
-        font-size:15px;
-        line-height:30px;
-    }
-}
-@media only screen and (max-width: 800px){
-    .reason{
-        font-size: 35px;
-        line-height: 45px;
-    }
-    .list{
-        font-family: 'poppins';
-        font-size:15px;
-        line-height:23px;
-    }
-}
-@media only screen and (max-width: 650px){
-    .reason{
-        font-size: 20px;
-        line-height: 35px;
-    }
-    .list{
-        font-family: serif;
-        font-size:15px;
-        line-height:20px;
-    }
-    .bg{
-        background-image:url(../Images/Bg-Mem.png);
-        background-position:center;
-        background-size:cover;
-        height:300px;
-    }
 }
 ul{
     list-style: none;
@@ -122,7 +76,7 @@ ul{
     height: 30px;
 }
 .comment{
-    width:80px;
+    width:70px;
     height:60px;
 }
 .bg-p{
@@ -132,4 +86,110 @@ ul{
 .email{
     width:380px;
     border-radius:5px;
+}
+.btnc{
+    background-color:rgb(150, 151, 151);
+    border-radius:5px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bg{
+        background-image:url(../Images/Bg-Mem.png);
+        background-position:center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .reason{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .list{
+        font-family: 'poppins';
+        font-size:15px;
+        line-height:30px;
+    }
+    .comment{
+        width:70px;
+        height:60px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .reason{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .list{
+        font-family: 'poppins';
+        font-size:15px;
+        line-height:23px;
+    }
+    .comment{
+        width: 55px;
+        height:45px;
+    }
+    .comment{
+        font-size:52px;
+    }
+    .rounded-p{
+        width: 55px;
+        height: 35px;
+        
+    }
+    .adam{
+        font-size:17px;
+    }
+    /* .adamv{
+        padding-left: 50px;
+    } */
+    .star{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .reason{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .list{
+        font-family: serif;
+        font-size:15px;
+        line-height:20px;
+    }
+    .bg{
+        background-image:url(../Images/Bg-Mem.png);
+        background-position:center;
+        background-size:cover;
+        height:300px;
+    }
+    
+    .comment{
+        width:60px;
+        height:50px;
+    }
+    .rounded-p{
+        width: 55px;
+        height: 35px;
+        
+    }
+    .adam{
+        font-size:20px;
+    }
+    .adamv{
+        padding-left: 5px;
+    }
+    .email{
+        width:100%;
+    }
+}
+@media only screen and (min-width: 350px)and (max-width: 550px){
+    .reason{
+        font-size: 1em;
+        line-height: 1.3em;
+        
+    }
+    .list{
+        font-size:.9em;
+        line-height:1.2em;
+    }
 }
