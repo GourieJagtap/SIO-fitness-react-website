@@ -118,12 +118,12 @@ const Memberships=()=>{
                 </div>
             </div>
                 <div className="row m-0">
-                    <div className="col-md-6 pt-5 pb-3">
-                        <div className="ps-5 col plan1 pe-md-3">
+                    <div className="col-md-6 pt-5 pb-3 ps-5">
+                        <div className=" col plan1 pe-md-3">
                                 What Our Members Are Saying About  
                         </div>
                         <div className="row">
-                            <div className="col memb-body ps-5 pt-5 pe-md-3">
+                            <div className="col memb-body pt-3 pe-md-3">
                                 Here are various testimonials from some of our members spread all over the world.
                             </div>
                         </div>
