@@ -89,7 +89,7 @@ const Memberships=()=>{
             <div className="row p-4">
                 <div className=" col-12 pt-lg-4 ">
                     <div className="pb-md-5 pt-md-5 ">
-                        <div className="shadow row p-5">
+                        <div className="shadow row p-3">
                             <div className="text-center col plan">
                             Membership Plans
                             </div>
