@@ -3,7 +3,7 @@ import "./MemCard.css"
 const MemCard=(props)=>{
     return(
         // <div className="container-fluid">
-            <div className="col-lg-4 shadow-sm p-1" >
+            <div className="col-lg-4 shadow-sm p-3" >
                 <div className="card cardd">
                 <div className="card-body">
                     <h6 className=" text-center card-title text-primary">{props.plann}</h6>
