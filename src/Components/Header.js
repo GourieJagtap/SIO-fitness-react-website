@@ -17,12 +17,9 @@ const Header =(props)=>{
                         <li class="nav-item ps-4">
                         <Link class="nav-link"to="/memberships">Memberships</Link>
                         </li>
-                        <li class="nav-item ps-4">
-                        <Link class="nav-link"to="/locations">Locations</Link>
-                        </li>
                     </ul>
                     <form class="d-flex" role="search">
-                    <button type="button" class="btn btn-outline-success">Register</button>
+                    <button type="button" class="btn btn-outline-success" >Register</button>
                     </form>
                 </div>
             </div>

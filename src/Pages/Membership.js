@@ -67,7 +67,7 @@ const Memberships=()=>{
     // alert(txt)
     
     return(
-        <div class="container bg">
+        <div class="container-fluid bg">
             <div className="row">
                 <div className="col-6"></div>
                 <div className="col-6 reason ps-md-3 pt-md-5">
@@ -75,7 +75,7 @@ const Memberships=()=>{
                 </div>
                 <div className="row">
                         <div className="col-6"></div>
-                <div className="m-0 col-6 ps-md-1 text-primary wedo">
+                <div className="m-0 col-6 ps-md-2 wedoo">
                     <ul className="list">
                         <li>We provide certified and professonal and certified trainers</li>
                         <li>You can consult with our trainers for free.</li>
@@ -86,7 +86,7 @@ const Memberships=()=>{
                 </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row p-4">
                 <div className=" col-12 pt-lg-4 ">
                     <div className="pb-md-5 pt-md-5 ">
                         <div className="shadow row p-5">
@@ -127,13 +127,12 @@ const Memberships=()=>{
                                 Here are various testimonials from some of our members spread all over the world.
                             </div>
                         </div>
-                        <div className="row p-4">
+                        <div className="row p-3">
                             <img src={Face1} className="img1 rounded-p rounded-circle"></img>
                             <img src={Face2} className="img2 rounded-p rounded-circle"></img>
                             <img src={Face3} className="img3 rounded-p rounded-circle"></img>
                             <img src={Face4} className="img4 rounded-p rounded-circle"></img>
                             <img src={Face5} className="img5 rounded-p rounded-circle"></img>
-                            <img src={Face6} className="img6 rounded-p rounded-circle"></img>
                         </div>
                     </div>
                     <div className="col-md-6 p-md-5 ">
@@ -171,7 +170,7 @@ const Memberships=()=>{
                 <div className="row p-3">
                     <div className="col-12 bg-p">
                         <div className="row pt-5 pb-4">
-                            <div className="ps-5 col plan1 pe-md-3 text-light text-center">
+                            <div className=" col plan1 pe-md-3 text-light text-center">
                                         Subscribe To Our News Letters
                             </div>
                         </div>
