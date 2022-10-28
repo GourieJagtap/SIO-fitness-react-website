@@ -75,7 +75,7 @@ const Memberships=()=>{
                 </div>
                 <div className="row">
                         <div className="col-6"></div>
-                <div className="m-0 col-6 ps-md-2 wedoo">
+                <div className="m-0 col-6  wedoo">
                     <ul className="list">
                         <li>We provide certified and professonal and certified trainers</li>
                         <li>You can consult with our trainers for free.</li>
